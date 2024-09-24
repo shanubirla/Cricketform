@@ -11,7 +11,7 @@ import video from '../images/Kohli, Gayle take RCB upto 2nd spot with thumping w
 const Home = () => {
   return (
     <div className="text-center p-10">
-      {/* Welcome Section */}
+    
       <h1 className="text-5xl font-bold text-green-600 animate-bounce">Welcome to the Cricket League</h1>
       <p className="mt-4 text-lg text-gray-700">Join the action. Register to participate!</p>
       <div className="mt-10">
@@ -22,11 +22,11 @@ const Home = () => {
         </Link>
       </div>
 
-      {/* Introduction Section */}
+      
       <div className="mt-16">
         <h2 className="text-3xl font-bold mb-6">About the Cricket League</h2>
         <div className="flex flex-col md:flex-row items-center justify-center ml-32 gap-8">
-          {/* Intro Text */}
+        
           <div className="md:w-1/2 text-left">
             <p className="text-lg text-gray-700 mb-4 ">
               The Cricket League is a professional sports league that celebrates the passion and energy of cricket. 
@@ -39,7 +39,7 @@ const Home = () => {
               are welcome to participate and showcase their talent. Join us for an unforgettable cricket experience!
             </p>
           </div>
-          {/* Intro Image */}
+         
           <div className="md:w-1/2 ml-24">
             <img 
               src={image} 
@@ -50,7 +50,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Video Testimonial Section */}
+     
       <div className="mt-16">
         <h2 className="text-3xl font-bold mb-6">Hear from the Players</h2>
         <div className="max-w-2xl mx-auto">
@@ -64,7 +64,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Image Cards Section */}
+     
       <div className="mt-16">
         <h2 className="text-3xl font-bold mb-6">Experience Cricket Action</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
@@ -75,13 +75,13 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Our Teams Section */}
+     
       <div className="mt-16">
         <h2 className="text-3xl font-bold mb-6">Our Teams</h2>
         <TeamSlider />
       </div>
 
-      {/* Feedback Slider Section */}
+     
       <div className="mt-16">
         <h2 className="text-3xl font-bold mb-6">What Players and Coaches Say</h2>
         <FeedbackSlider />
