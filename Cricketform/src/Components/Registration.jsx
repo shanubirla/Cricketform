@@ -20,7 +20,7 @@ const Registration = () => {
   const [errors, setErrors] = useState({});
   const [captcha, setCaptcha] = useState('');
 
-  // Generate CAPTCHA code
+  
   const generateCaptcha = () => {
     const randomCode = Math.random().toString(36).substring(2, 8);
     setCaptcha(randomCode);
@@ -110,7 +110,7 @@ const Registration = () => {
       <form onSubmit={handleSubmit}>
         {step === 1 && (
           <div className="flex">
-            {/* Left Section */}
+           
             <div className="w-1/2 pr-4">
               <div className="mb-4">
                 <label className="block text-gray-700 mb-2" htmlFor="name">Name</label>
@@ -134,7 +134,7 @@ const Registration = () => {
               </div>
             </div>
 
-            {/* Right Section */}
+           
             <div className="w-1/2 pl-4">
               <div className="mb-4">
                 <label className="block text-gray-700 mb-2" htmlFor="fatherName">Father's Name</label>
@@ -200,7 +200,7 @@ const Registration = () => {
         {step === 3 && (
           <div>
             <h3 className="text-2xl mb-4">Confirm Your Details & Make Payment</h3>
-            {/* Display entered data for confirmation */}
+           
             <div className="mb-4">
               <strong>Name:</strong> {formData.name}
             </div>
@@ -228,7 +228,7 @@ const Registration = () => {
             <div className="mb-4">
               <strong>Total Matches Played:</strong> {formData.totalMatchesPlayed}
             </div>
-            {/* Payment Field */}
+            
             <div className="mb-4">
               <label className="block text-gray-700 mb-2" htmlFor="payment">Payment Method</label>
               <select id="payment" name="payment" value={formData.payment} onChange={handleInputChange} className="w-full px-4 py-2 border rounded-md" required>
