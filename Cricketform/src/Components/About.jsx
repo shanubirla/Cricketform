@@ -3,7 +3,7 @@ import image from '../images/image.png'
 const About = () => {
   return (
     <div className="text-center p-10">
-      {/* About the Cricket League Section */}
+     
       <div className="mt-16">
         <h2 className="text-4xl font-bold mb-6">About the Cricket League</h2>
         <p className="text-lg text-gray-700 max-w-3xl mx-auto mb-6">
@@ -24,7 +24,7 @@ const About = () => {
         />
       </div>
 
-      {/* Registration Process Section */}
+  
       <div className="mt-16">
         <h2 className="text-4xl font-bold mb-6">Registration Process</h2>
         <div className="max-w-4xl mx-auto text-left">
