@@ -28,7 +28,7 @@ const Contact = () => {
     const formErrors = validateForm();
     if (Object.keys(formErrors).length === 0) {
       setIsSubmitted(true);
-      // You can handle the form submission logic here (e.g., sending data to the backend)
+      
     } else {
       setErrors(formErrors);
     }
