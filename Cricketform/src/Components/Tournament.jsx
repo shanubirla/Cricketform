@@ -7,11 +7,11 @@ import image1 from '../images/image01.png';
 import image2 from '../images/image03.png';
 import image3 from '../images/image04.png';
 import image4 from '../images/111.png';
-// Dummy images of previous tournaments (replace these with actual image URLs)
+
 const images = [image1, image2, image3, image4];
 
 const Tournament = () => {
-  // Settings for the slider
+ 
   const sliderSettings = {
     dots: true,
     infinite: true,
@@ -30,7 +30,7 @@ const Tournament = () => {
         Get ready for the most exciting cricket tournament of the year! Apply now and compete for glory!
       </p>
 
-      {/* Image Slider for Previous Tournaments */}
+     
       <section className="mb-10">
         <h3 className="text-2xl font-bold mb-4">Highlights from Previous Tournaments</h3>
         <Slider {...sliderSettings}>
@@ -46,7 +46,7 @@ const Tournament = () => {
         </Slider>
       </section>
 
-      {/* Tournament Overview */}
+     
       <section className="mb-8">
         <h3 className="text-2xl font-bold mb-4">Tournament Overview</h3>
         <p className="mb-4">
@@ -57,11 +57,11 @@ const Tournament = () => {
         </p>
       </section>
 
-      {/* Team Categories */}
+     
       <section className="mb-8">
         <h3 className="text-2xl font-bold mb-4">Team Categories</h3>
 
-        {/* Senior Teams */}
+        
         <div className="mb-6">
           <h4 className="text-xl font-semibold mb-2">Senior Teams</h4>
           <p className="mb-4">
@@ -69,7 +69,6 @@ const Tournament = () => {
           </p>
         </div>
 
-        {/* Junior Teams */}
         <div className="mb-6">
           <h4 className="text-xl font-semibold mb-2">Junior Teams</h4>
           <p className="mb-4">
@@ -78,7 +77,7 @@ const Tournament = () => {
         </div>
       </section>
 
-      {/* Tournament Levels */}
+     
       <section className="mb-8">
         <h3 className="text-2xl font-bold mb-4">Tournament Levels</h3>
         <div className="mb-4">
@@ -107,7 +106,7 @@ const Tournament = () => {
         </div>
       </section>
 
-      {/* Application Process */}
+     
       <section className="mb-8">
         <h3 className="text-2xl font-bold mb-4">Application Process</h3>
         <p className="mb-4">
